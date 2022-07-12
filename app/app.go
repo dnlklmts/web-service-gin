@@ -23,7 +23,7 @@ func Serve() {
 	storage := storages.NewAlbumStorage()
 	storage.Albums = albums
 
-	processor := processors.NewAlbumStorage(storage)
+	processor := processors.NewAlbumProcessor(storage)
 	handler := handlers.NewAlbumHandler(processor)
 	router := api.CreateRouter(handler)
 

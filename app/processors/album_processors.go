@@ -10,7 +10,7 @@ type AlbumProcessor struct {
 	storage *storages.Storage
 }
 
-func NewAlbumStorage(storage *storages.Storage) *AlbumProcessor {
+func NewAlbumProcessor(storage *storages.Storage) *AlbumProcessor {
 	return &AlbumProcessor{storage: storage}
 }
 
