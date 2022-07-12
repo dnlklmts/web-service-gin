@@ -1,4 +1,6 @@
-API that provides access to a store selling vintage recordings on vinyl.
+API that provides access to a store selling vintage recordings on vinyl. To keep things simple, data will be stored in memory.
+
+Based on tutorial <https://go.dev/doc/tutorial/web-service-gin>
 
 The endpoints:
 
